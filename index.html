@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                <h3>HOME</h3>
+                <div class="score-area">
+                    <p class="score" id="home-score">0</p>
+                </div>
+                <div class="btn-group">
+                    <button onclick="homeOnePoint()" class="add-score">
+                        <p class="btn-copy">+1</p></button>
+                    <button onclick="homeTwoPoint()" class="add-score">
+                        <p class="btn-copy">+2</p></button>
+                    <button onclick="homeThreePoint()" class="add-score">
+                        <p class="btn-copy">+3</p></button>
+                </div>
+            </div>
+            <div class="team">
+                <h3>GUEST</h3>
+                <div class="score-area">
+                    <p class="score" id="guest-score">0</p>
+                </div>
+                <div class="btn-group">
+                    <button onclick="guestOnePoint()" class="add-score">
+                        <p class="btn-copy">+1</p></button>
+                    <button onclick="guestTwoPoint()" class="add-score">
+                        <p class="btn-copy">+2</p></button>
+                    <button onclick="guestThreePoint()" class="add-score">
+                        <p class="btn-copy">+3</p></button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
